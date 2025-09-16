@@ -11,7 +11,7 @@ import Voice, {
   type SpeechRecognizedEvent,
   type SpeechResultsEvent,
   type SpeechErrorEvent,
-} from '@react-native-voice/voice';
+} from '@lmt/react-native-voice';
 
 type Props = {};
 type State = {
