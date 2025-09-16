@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@lmt/react-native-voice": "file:../",
+    "react-native-voice-lmt": "file:../",
     "react": "18.3.1",
     "react-native": "0.76.2"
   },

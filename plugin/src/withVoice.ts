@@ -5,7 +5,7 @@ import {
   withInfoPlist,
 } from '@expo/config-plugins';
 
-const pkg = require('@lmt/react-native-voice/package.json');
+const pkg = require('react-native-voice-lmt/package.json');
 
 const MICROPHONE = 'Allow $(PRODUCT_NAME) to access the microphone';
 

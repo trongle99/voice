@@ -1,5 +1,5 @@
 {
-  "name": "@lmt/react-native-voice",
+  "name": "react-native-voice-lmt",
   "description": "React Native Native Voice library for iOS and Android",
   "version": "3.2.4",
   "author": "Sam Wenke <samwenke@gmail.com>",
@@ -53,12 +53,12 @@
   "scripts": {
     "lint": "eslint src/*",
     "semantic-release": "semantic-release",
-    "start": "yarn --cwd example start",
-    "ios": "yarn --cwd example ios",
-    "android": "yarn --cwd example android",
-    "prepare": "yarn build && yarn build:plugin",
+    "start": "npm run start --workspace example",
+    "ios": "npm run ios --workspace example",
+    "android": "npm run android --workspace example",
+    "prepare": "npm run build && npm run build:plugin",
     "build": "tsc",
-    "dev-sync": "cp -r ./dist example/node_modules/@lmt/react-native-voice",
+    "dev-sync": "cp -r ./dist example/node_modules/react-native-voice-lmt",
     "type-check": "tsc -noEmit",
     "build:plugin": "tsc --build plugin",
     "lint:plugin": "eslint plugin/src/*"

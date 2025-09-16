@@ -1,17 +1,11 @@
-import { useEffect, useState } from 'react';
-import {
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  TouchableHighlight,
-} from 'react-native';
+import {useEffect, useState} from 'react';
+import {StyleSheet, Text, View, Image, TouchableHighlight} from 'react-native';
 
 import Voice, {
   type SpeechRecognizedEvent,
   type SpeechResultsEvent,
   type SpeechErrorEvent,
-} from '@lmt/react-native-voice';
+} from 'react-native-voice-lmt';
 
 function VoiceTest() {
   const [recognized, setRecognized] = useState('');
